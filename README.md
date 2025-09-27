@@ -29,7 +29,7 @@ Aplicación SPA desarrollada con Blazor WebAssembly que implementa autenticació
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/jorgefdezsa/BlazorSPAEntra.git
+   git clone https://github.com/jorgefdezsa/BlazorSPA.git
 
 2. Configura los valores en wwwroot/appsettings.json:
 {
