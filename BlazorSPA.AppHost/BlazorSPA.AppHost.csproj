@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Sdk Name="Aspire.AppHost.Sdk" Version="9.2.1" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>bb704452-d97e-4816-9f31-e05202c665f0</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.2.1" />
+    <PackageReference Include="Aspire.Hosting.Azure.Functions" Version="(9.2-*,9.3]" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Middleware.API\Middleware.API.csproj" />
+    <ProjectReference Include="..\Validator.FX\Validator.FX.csproj" />
+  </ItemGroup>
+
+</Project>
